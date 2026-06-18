@@ -1,104 +1,79 @@
-🍽️ Surplus Food Rescue System
-Reducing Food Waste Through Smart Food Redistribution
-📌 Overview
+# 🍽️ Surplus Food Rescue System
 
-The Surplus Food Rescue System is a full-stack application designed to address the growing issue of food waste by connecting restaurants, bakeries, and food vendors with consumers looking for affordable meals.
+A full-stack application designed to reduce food waste by connecting restaurants with surplus food to nearby consumers. The platform enables vendors to list unsold food at discounted prices, helping reduce waste while providing affordable meal options to users.
 
-Every day, large quantities of perfectly edible food are discarded due to overproduction and unsold inventory. This platform provides a sustainable solution by enabling vendors to list surplus food items at discounted prices and allowing nearby users to discover and purchase them before they are wasted.
+## 🚀 Features
 
-The project aims to promote environmental sustainability, reduce food wastage, and create a win-win ecosystem for both businesses and consumers.
+- User and Vendor Authentication
+- Surplus Food Listing & Management
+- Browse Available Food Offers
+- Search and Filter Food Items
+- Responsive Mobile-Friendly Interface
+- Sustainable Food Redistribution Platform
 
-🚀 Key Features
-👤 User Module
-User Registration & Authentication
-Browse Available Surplus Food
-Search & Filter Food Listings
-View Food Details and Pricing
-Discover Nearby Food Deals
-Responsive Mobile-Friendly Interface
-🏪 Vendor Module
-Restaurant Registration & Login
-Add Surplus Food Listings
-Update Food Quantity and Pricing
-Manage Available Food Items
-Track Food Listings
-🌍 Sustainability Impact
-Reduce Food Waste
-Promote Responsible Consumption
-Support Affordable Food Access
-Contribute to Environmental Sustainability
-🛠️ Tech Stack
-Frontend
-Flutter
-Dart
-Figma (UI/UX Design)
-Backend
-Python
-Flask
-Database
-SQLite
-Development Tools
-VS Code
-Git & GitHub
-🏗️ System Architecture
-Flutter Mobile Application
-            │
-            ▼
-      Flask REST API
-            │
-            ▼
-      SQLite Database
-📱 Application Screens
-User Side
-Welcome Screen
-Login Screen
-Registration Screen
-Home Screen
-Food Listing Screen
-Food Details Screen
-Vendor Side
-Restaurant Login
-Restaurant Registration
-Add Food Listing
-Manage Food Inventory
-🎯 Project Objectives
-Minimize food wastage from restaurants and bakeries.
-Create a digital bridge between vendors and consumers.
-Provide affordable food options to users.
-Encourage sustainable food consumption.
-Promote environmental awareness through technology.
-💡 Problem Statement
+## 🛠️ Tech Stack
 
-Food waste remains one of the biggest challenges in the food industry. Restaurants and bakeries often discard unsold food despite it being safe for consumption. At the same time, many consumers seek affordable meal options but lack access to real-time information about available surplus food.
+### Frontend
+- Flutter
+- Dart
+- Figma (UI/UX Design)
 
-This project addresses these challenges by providing a platform that enables food redistribution in an efficient and user-friendly manner.
+### Backend
+- Python
+- Flask
 
-✨ Future Enhancements
-Real-Time Location Tracking
-Google Maps Integration
-Push Notifications
-Online Payment Gateway
-AI-Based Food Demand Prediction
-Food Donation to NGOs
-Recommendation System for Users
-📊 Impact
+### Database
+- SQLite
 
-✔ Reduced Food Waste
-✔ Improved Resource Utilization
-✔ Affordable Meals for Consumers
-✔ Increased Revenue Recovery for Restaurants
-✔ Sustainable Community Development
+### Tools
+- VS Code
+- Git & GitHub
 
-👩‍💻 Author
+## 📂 Project Structure
 
-Ajana Biju
-B.Tech Computer Science (Data Science)
-SCMS School of Engineering & Technology
+```text
+Frontend (Flutter)
+        │
+        ▼
+Backend (Flask API)
+        │
+        ▼
+Database (SQLite)
+```
 
-📧 Email: your-email@example.com
-💼 LinkedIn: www.linkedin.com/in/ajana-biju-93ba7b291
-🔗 GitHub: github.com/Ajanabiju
+## 🎯 Problem Statement
 
-⭐ If you found this project interesting, consider giving it a star and connecting with me on LinkedIn!
+Restaurants, bakeries, and food vendors often discard unsold but edible food at the end of the day. At the same time, many consumers seek affordable meal options. This project bridges that gap by enabling food vendors to list surplus food and allowing users to discover nearby discounted meals.
 
-"Technology for Sustainability — Turning Surplus Food into Opportunity." 🌱🍽️
+## 💡 Solution
+
+The application provides a digital platform where:
+- Vendors can upload surplus food listings.
+- Users can browse available food nearby.
+- Food waste is reduced through efficient redistribution.
+- Businesses recover part of their losses from unsold inventory.
+
+## 🌱 Impact
+
+- Reduces food waste
+- Promotes sustainable consumption
+- Supports affordable food access
+- Encourages responsible resource utilization
+
+## 🔮 Future Enhancements
+
+- Google Maps Integration
+- Real-Time Notifications
+- Online Payments
+- AI-Based Food Demand Prediction
+- Food Donation Module
+
+## 👩‍💻 Author
+
+**Anula Biju**
+
+- 💼 LinkedIn: https://www.linkedin.com/in/anulabiju
+- 💻 GitHub: https://github.com/Anula-anu
+---
+
+*"Using technology to create a sustainable and waste-free food ecosystem."*
